@@ -251,7 +251,7 @@ section{
                                     supported by Chrome, Edge, Opera and Firefox */
   }
 
-  @media (max-width:1023px){
+  @media (max-width:1075px){
     header{
         padding: 12px 20px;
     }
