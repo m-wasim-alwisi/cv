@@ -26,7 +26,7 @@ header {
     font-size: 1.8em;
 }
 .navigation a{
-    color: #3a6cf4;
+    color: #001d6d;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
@@ -59,15 +59,20 @@ section{
 }
 
 
-.main h2 span{
+.main h1 span{
     display: inline-block;
     margin-top: 10px;
-
-    color: #ab9af9;
+    background-color: #95a6ea;
+    color: #000000;
     font-size: 3em;
     font-weight:600 ;
 }
-
+ 
+.main h1 span:first-of-type{
+   
+    font-size: 1.8em; 
+}
+ 
 .main h3{
     color: #fff;
     font-size: 2em;
@@ -207,8 +212,12 @@ section{
 }
 .contact .info h3{
     color: black;
+    font-weight: 500;
 }
-
+.contact .info h2{
+    color: black;
+    font-weight: 500;
+}
 .contact .info p{
     color: black;
     font-size: 1.4em; 
@@ -267,6 +276,19 @@ section{
     }
   }
 
+
+  @media (max-width:720px){
+    body{
+        font-size: 13px;
+    }
+    .main-content h2{
+        font-size: 0.9em;
+    }
+    .main-content h3{
+        font-size: 1.5em;
+    }
+  }
+
   @media (max-width:641px){
     body{
         font-size: 12px;
@@ -278,9 +300,39 @@ section{
         font-size: 1.4em;
     }
   }
-
-
-  
+  @media (max-width:549px){
+    body{
+        font-size: 10px;
+    }
+    .main-content h2{
+        font-size: 0.6em;
+    }
+    .main-content h3{
+        font-size: 1.2em;
+    }
+  }
+  @media (max-width:464px){
+    body{
+        font-size: 8px;
+    }
+    .main-content h2{
+        font-size: 0.6em;
+    }
+    .main-content h3{
+        font-size: 1.2em;
+    }
+  }
+  @media (max-width:380px){
+    body{
+        font-size: 7px;
+    }
+    .main-content h2{
+        font-size: 0.6em;
+    }
+    .main-content h3{
+        font-size: 1.2em;
+    }
+  }
   @media (max-width:300px){
     body{
         font-size: 10px;
