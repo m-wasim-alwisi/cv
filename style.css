@@ -313,6 +313,27 @@ section{
   }
   @media (max-width:464px){
     body{
+        font-size:12px;
+    }
+    .navigation{
+        font-size: 1.12em;
+    }
+    .main h1 span:first-of-type {
+        font-size: 1.6em;
+    }
+    .main h1 span{
+        font-size: 2em;
+
+    }
+    .main-content h2{
+        font-size: 0.9em;
+    }
+    .main-content h3{
+        font-size: 0.9em;
+    }
+  }
+  @media (max-width:380px){
+    body{
         font-size: 8px;
     }
     .main-content h2{
@@ -322,17 +343,11 @@ section{
         font-size: 1.2em;
     }
   }
-  @media (max-width:380px){
+  @media (max-height:745px){
     body{
-        font-size: 7px;
-    }
-    .main-content h2{
-        font-size: 0.6em;
-    }
-    .main-content h3{
-        font-size: 1.2em;
-    }
-  }
+        font-size: 10.5px;
+    } 
+}
   @media (max-width:300px){
     body{
         font-size: 10px;
