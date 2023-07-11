@@ -6,7 +6,9 @@
     scroll-behavior: smooth;
 }
  
-
+body{
+    font-size: 14px;
+}
 header {
     background-color: aliceblue;
     width: 100%;
@@ -17,21 +19,18 @@ header {
     align-items: center;
     padding: 10px 200px;
 }
-body{
-    
-    font-size: 18px;
-}
+
 .logo {
     text-decoration: none;
     color: blue;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 1.8rem;
 }
 .navigation a{
     color: #001d6d;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     font-weight: 500;
     padding-left: 30px;
 }
@@ -49,7 +48,7 @@ section{
     min-height:100vh;
     display: flex;
     align-items: center;
-    background: url(images/1126605.jpg) no-repeat;
+    background: url(images/min.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -57,7 +56,7 @@ section{
 
 .main h2 {
     color: white;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight:500 ;
 }
 
@@ -67,18 +66,18 @@ section{
     margin-top: 10px;
     background-color: #95a6ea;
     color: #000000;
-    font-size: 3em;
+    font-size: 3rem;
     font-weight:600 ;
 }
  
 .main h1 span:first-of-type{
    
-    font-size: 1.8em; 
+    font-size: 1.8rem; 
 }
  
 .main h3{
     color: #fff;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight:700;
     letter-spacing: 1px;
     margin-top:10px ;
@@ -88,7 +87,7 @@ section{
     color: #fff;
     background-color: #3a6cf4;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     font-weight: 600;
     display: inline-block;
     padding: 0.9375em 2.1875em;
@@ -105,14 +104,14 @@ section{
 }
 .social-icons a{
     color: #fff;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     padding-right: 30px;
 }
 .title{
     display: flex;
     justify-content:center;
     color: #3a6cf4;
-    font-size: 2.2em;
+    font-size: 2.2rem;
     font-weight: 800;
     margin-bottom:30px;    
 }
@@ -127,7 +126,7 @@ section{
 }
 .card {
     background-color: #fff;
-    width: 21.25em;
+    width: 21.25rem;
     box-shadow: 0 5px 25px rgba(1 1 1 /15%);
     border-radius: 10px;
     padding: 25px;
@@ -141,7 +140,7 @@ section{
 }
 .card .icon{
     color: #3a6cf4;
-    font-size: 8em;
+    font-size: 8rem;
     text-align: center; 
 }
 .info{
@@ -149,7 +148,7 @@ section{
 }
 .info h3{
     color: #3a6cf4;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 700;
     margin: 10px;
 }
@@ -166,8 +165,8 @@ section{
     /* align-items: center; */
     background-color:#fff ; 
     border: 1px solid #fff;
-    min-height: 14em;
-    width: 23em;
+    min-height: 14rem;
+    width: 23rem;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
@@ -210,7 +209,7 @@ section{
 }
 
 .contact .info .icon{
-    font-size: 4.5em;
+    font-size: 4.5rem;
 
 }
 .contact .info h3{
@@ -223,7 +222,7 @@ section{
 }
 .contact .info p{
     color: black;
-    font-size: 1.4em; 
+    font-size: 1.4rem; 
 }
 .footer{
     background-color: #000016;
@@ -233,14 +232,14 @@ section{
     justify-content: space-between;
 }
 .footer-title{
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 .footer-title span{ 
     color: #3a6cf4;
 }
 .footer .social-icons a{
-    font-size: 1.3em;
+    font-size: 1.3rem;
     padding: 0 15px 0 0;
 }
 
@@ -255,10 +254,6 @@ section{
   }
 
   @media (max-width:1075px){
-    body{
-        
-    font-size: 1rem;
-    }
     header{
         padding: 12px 20px;
     }
@@ -266,16 +261,16 @@ section{
         padding-left:10px ;
     }
     .title{
-        font-size: 1.8em;
+        font-size: 0.6rem;
     }
     section{
         padding: 80px 20px ;
     }
     .main-content h2{
-        font-size: 1em;
+        font-size: 0.7rem;
     }
     .main-content h3{
-        font-size: 1.6em;
+        font-size: 0.5rem;
     }
     .content{
         flex-direction: column;
@@ -286,10 +281,10 @@ section{
 
   @media (max-width:720px){
     body{
-        font-size: 0.722rem;
+        font-size: 13px;
     }
     .main-content h2{
-        font-size: 0.9em;
+        font-size: 0.9rem;
     }
     .main-content h3{
         font-size: 1.5rem;
@@ -298,13 +293,13 @@ section{
 
   @media (max-width:641px){
     body{
-        font-size: 0.7rem;
+        font-size: 12px;
     }
     .main-content h2{
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
     .main-content h3{
-        font-size: 1.4em;
+        font-size: 0.7rem;
     }
   }
   @media (max-width:549px){
@@ -312,10 +307,10 @@ section{
         font-size: 10px;
     }
     .main-content h2{
-        font-size: 0.6em;
+        font-size: 0.6rem;
     }
     .main-content h3{
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
   }
   @media (max-width:464px){
@@ -323,20 +318,20 @@ section{
         font-size:12px;
     }
     .navigation{
-        font-size: 1.12em;
+        font-size: 1.12rem;
     }
     .main h1 span:first-of-type {
-        font-size: 1.6em;
+        font-size: 1.6rem;
     }
     .main h1 span{
         font-size: 2em;
 
     }
     .main-content h2{
-        font-size: 0.9em;
+        font-size: 0.9rem;
     }
     .main-content h3{
-        font-size: 0.9em;
+        font-size: 0.9rem;
     }
   }
   @media (max-width:380px){
@@ -344,10 +339,10 @@ section{
         font-size: 8px;
     }
     .main-content h2{
-        font-size: 0.6em;
+        font-size: 0.6rem;
     }
     .main-content h3{
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
   }
   @media (max-height:745px){
